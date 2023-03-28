@@ -58,7 +58,7 @@ document.querySelector(`.check`).addEventListener(`click`, function(){
 // how to restart `again` click
 
 document.querySelector(`.again`).addEventListener(`click`, function(){
-    score-20;
+    score=20;
     let secretNumber=Math.trunc(Math.random()*20)+1;
     displayMessage(`start guess.....`);
     displayScore(score);
